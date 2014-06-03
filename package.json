@@ -1,0 +1,32 @@
+{
+  "name": "tar-grab-unpack",
+  "version": "0.0.1",
+  "description": "Node.js utlity to grab tar files and unpack them",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keithamus/tar-grab-unpack.git"
+  },
+  "keywords": [
+    "tar",
+    "streams",
+    "download",
+    "http"
+  ],
+  "author": "Keith Cirkel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keithamus/tar-grab-unpack/issues"
+  },
+  "homepage": "https://github.com/keithamus/tar-grab-unpack",
+  "dependencies": {
+    "debug": "^0.8.1",
+    "es6-promise": "^1.0.0",
+    "progress": "^1.1.5",
+    "rimraf": "^2.2.8",
+    "tar": "^0.1.19"
+  }
+}
